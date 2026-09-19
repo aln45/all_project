@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create New Account</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,black,rgb(253,76,76),orange,rgb(253,76,76),black);
+}
+
+.container{
+    width:380px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px gray;
+}
+
+h1{
+    text-align:center;
+    color:#004080;
+}
+
+label{
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0 18px;
+    border:1px solid #999;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+    background:#004080;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#002b5c;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Create New Account</h1>
+
+<form>
+
+<label for="username">Username</label>
+<input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+<label for="confirmPassword">Confirm Password</label>
+<input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+<label for="mobile">Mobile Number</label>
+<input type="tel" id="mobile" name="mobile" placeholder="Enter Mobile Number" required>
+
+<label for="dob">Date of Birth</label>
+<input type="date" id="dob" name="dob" required>
+
+<button type="submit">Create Account</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
