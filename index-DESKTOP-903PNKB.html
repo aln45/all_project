@@ -9,7 +9,7 @@
 <body>
 
 
-    <div class="calculator">
+    <div class="butni">
         <input type="text" placeholder="0" id="inputbox">
         <div>
             
@@ -52,6 +52,31 @@
             <button class="eqbtn">=</button>
         </div>
     </div>
+    
+
+
+<div class="calculator2">
+
+  <div class="top-bar">
+    <button class="menu-btn" onclick="toggleMenu()">⋮</button>
+
+    <div id="menuOptions" class="menu-options">
+      <p onclick="showHistory()">History</p>
+      <p onclick="clearHistory()">Clear History</p>
+    </div>
+  </div>
+
+  <input type="text" id="display">
+
+</div>
+    <!-- <div class="menu">
+  <button onclick="toggleMenu()">⋮</button>
+
+  <div id="menuOptions" class="menu-options">
+    <p onclick="showHistory()">History</p>
+    <p onclick="clearHistory()">Clear History</p>
+  </div>
+</div> -->
 
     <script src="script.js"></script>
 

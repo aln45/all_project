@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 body{
@@ -13,19 +12,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: linear-gradient(45deg, #161616, #3a4452);
 }
 
-.calculator{
-    border: 1px solid #717377;
+.butni{
+    border: 1px solid rgba(197, 56, 110, 0.74);
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-
-
-
-
+    box-shadow: 0px 0px 10px white;
 }
 
 input{
@@ -34,14 +29,11 @@ input{
     padding: 24px;
     margin: 10px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    box-shadow: 0px 0px 10px white;
     font-size: 40px;
     text-align: right;
     cursor: pointer;
     color: #ffffff;
-
-
-    
 }
 
 input::placeholder{
@@ -57,50 +49,70 @@ button{
     background: transparent;
     color: #ffffff;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 1px 2px 5px white;
     cursor: pointer;
-
-
-
 
 }
 
 .eqbtn{
-    background-color: #fb7c7c;
+    background-color: #d11616;
 }
 
 .addbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
 .divbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
 .multbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
 .minbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
 .perbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
 .delbtn{
-    color: green;
+    color: rgb(10, 245, 10);
 
 }
 
-
 .alcbtn{
-    color: red;
+    color: rgb(231, 19, 19);
     
+}
+
+.menu-options{
+  display:none;
+  
+}
+
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-options {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.menu-options p {
+  margin: 5px 0;
+  cursor: pointer;
 }
